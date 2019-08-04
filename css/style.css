@@ -96,7 +96,7 @@ section.bg-servicio {
 
 section.bg-servicio h1 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 200;
 }
 
@@ -112,6 +112,21 @@ section.bg-servicio h2 span {
   font-weight: 400;
 }
 
+@media (min-width: 720px) {
+  section.bg-servicio h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 960px) {
+  section.bg-servicio h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1300px) {
+  section.bg-servicio h1 {
+    font-size: 5rem;
+  }
+}
 /* variable */
 /* scss-file */
 *, body * {
