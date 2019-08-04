@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Asap", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 p {
@@ -29,20 +29,36 @@ header .img-logo {
   height: 100px;
 }
 
+header .navegacion .navbar-toggler {
+  color: #f8f9fa;
+  border-color: #dee2e6;
+}
+
 header .navegacion .navbar-toggler-icon {
   background-color: #f8f402;
 }
 
 header .navegacion .nav-link {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
+  -webkit-transition: border-bottom .2s ease-in-out;
+  transition: border-bottom .2s ease-in-out;
+}
+
+header .navegacion .nav-link:hover {
+  color: #ffffb8;
+  border-bottom: 3px solid #ffd711;
+}
+
+header .navegacion .nav-link.active {
+  color: #ffd711;
 }
 
 @media (min-width: 720px) {
   header .navegacion .nav-link {
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
   }
@@ -57,21 +73,43 @@ section.bg-centro {
 }
 
 section.bg-centro h1 {
-  color: #f4f4f4;
-  font-family: 'Lato', sans-serif;
+  color: #fff;
   font-weight: 200;
   font-size: 2.5rem;
   padding-top: 50%;
 }
 
 @media (min-width: 720px) {
+  section.bg-centro {
+    margin-bottom: 0px !important;
+  }
+
   section.bg-centro h1 {
     font-size: 6rem;
     padding-top: 15%;
   }
 }
 section.bg-servicio {
-  background-color: #f8f402;
+  background-color: #ffd711;
+  margin-top: -10px !important;
+}
+
+section.bg-servicio h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+section.bg-servicio h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+section.bg-servicio h2 span {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 /* variable */
