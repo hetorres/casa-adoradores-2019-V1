@@ -274,19 +274,19 @@ section.bg-infoservicios div h1{
 
 @media (min-width:720px){
     section.bg-infoservicios div.imagecircle1::before{
-        left: 32%;
-        top:20%;
+        left: 40%;
+        top:18%;
     }
     section.bg-infoservicios div.imagecircle2::before{
-        left: 32%;
+        left: 40%;
         top:21%;
     }
     section.bg-infoservicios div.imagecircle3::before{
-        left: 31%;
-        top:20%;
+        left: 40%;
+        top:18%;
     }
     section.bg-infoservicios div.imagecircle4::before{
-        left: 30%;
+        left: 39%;
         top:17%;
     }
     
@@ -298,20 +298,20 @@ section.bg-infoservicios div h1{
 
 @media (min-width:960px){
     section.bg-infoservicios div.imagecircle1::before{
-        left: 39%;
-        top:20%;
+        left: 33%;
+        top:19%;
     }
     section.bg-infoservicios div.imagecircle2::before{
-        left: 39%;
-        top:21%;
+        left: 30%;
+        top:19%;
     }
     section.bg-infoservicios div.imagecircle3::before{
-        left: 38%;
-        top:20%;
+        left: 30%;
+        top:18%;
     }
     section.bg-infoservicios div.imagecircle4::before{
-        left: 37%;
-        top:17%;
+        left: 30%;
+        top:19%;
     }
     
     section.bg-infoservicios div h1{
@@ -319,26 +319,49 @@ section.bg-infoservicios div h1{
     }
 }
 
+@media (min-width:1024px){
+    section.bg-infoservicios div.imagecircle1::before{
+        left: 33%;
+        top:14%;
+    }
+    section.bg-infoservicios div.imagecircle2::before{
+        left: 30%;
+        top:15%;
+    }
+    section.bg-infoservicios div.imagecircle3::before{
+        left: 30%;
+        top:15%;
+    }
+    section.bg-infoservicios div.imagecircle4::before{
+        left: 23%;
+        top:15%;
+    }
+    
+    section.bg-infoservicios div h1{
+        font-size: 2.7rem;
+    }
+}
+
 @media (min-width:1300px){
     section.bg-infoservicios div.imagecircle1::before{
-        left: 41%;
+        left: 25%;
         top:18%;
     }
     section.bg-infoservicios div.imagecircle2::before{
-        left: 40%;
+        left: 25%;
         top:18%;
     }
     section.bg-infoservicios div.imagecircle3::before{
-        left: 40%;
+        left: 25%;
         top:18%;
     }
     section.bg-infoservicios div.imagecircle4::before{
-        left: 40%;
+        left: 25%;
         top:15%;
     }
         
     section.bg-infoservicios div h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
 
