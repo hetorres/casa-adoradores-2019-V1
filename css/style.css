@@ -26,7 +26,7 @@ p {
 }
 
 header .img-logo {
-  height: 100px;
+  height: 80px;
 }
 
 header .navegacion .navbar-toggler {
@@ -42,12 +42,15 @@ header .navegacion .nav-link {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 700;
+  -webkit-transition: border-top .2s ease-in-out;
+  transition: border-top .2s ease-in-out;
   -webkit-transition: border-bottom .2s ease-in-out;
   transition: border-bottom .2s ease-in-out;
 }
 
 header .navegacion .nav-link:hover {
   color: #ffffb8;
+  border-top: 3px solid #ffd711;
   border-bottom: 3px solid #ffd711;
 }
 
@@ -56,11 +59,19 @@ header .navegacion .nav-link.active {
 }
 
 @media (min-width: 720px) {
+  header .img-logo {
+    height: 80px;
+  }
+
   header .navegacion .nav-link {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1300px) {
+  header .img-logo {
+    height: 100px;
   }
 }
 section.bg-centro {
@@ -125,6 +136,91 @@ section.bg-servicio h2 span {
 @media (min-width: 1300px) {
   section.bg-servicio h1 {
     font-size: 5rem;
+  }
+}
+section.bg-infoservicios {
+  background-image: url(../img/fondo/fondo-3.jpeg);
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.bg-infoservicios {
+  position: relative;
+}
+
+section.bg-infoservicios div.imagecircle1::before {
+  content: "" url(../img/svg/clock.svg) "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 38%;
+  top: 21%;
+}
+
+section.bg-infoservicios div.imagecircle2::before {
+  content: "" url(../img/svg/clock.svg) "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 38%;
+  top: 24%;
+}
+
+section.bg-infoservicios div.imagecircle3::before {
+  content: "" url(../img/svg/clock.svg) "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 38%;
+  top: 24%;
+}
+
+section.bg-infoservicios div.imagecircle4::before {
+  content: "" url(../img/svg/clock.svg) "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 38%;
+  top: 24%;
+}
+
+section.bg-infoservicios div h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+@media (min-width: 720px) {
+  section.bg-infoservicios div.imagecircle1::before,
+  section.bg-infoservicios div.imagecircle2::before,
+  section.bg-infoservicios div.imagecircle3::before,
+  section.bg-infoservicios div.imagecircle4::before {
+    left: 34%;
+    top: 25%;
+  }
+
+  section.bg-infoservicios div h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 960px) {
+  section.bg-infoservicios div.imagecircle1::before,
+  section.bg-infoservicios div.imagecircle2::before,
+  section.bg-infoservicios div.imagecircle3::before,
+  section.bg-infoservicios div.imagecircle4::before {
+    left: 40%;
+    top: 25%;
+  }
+
+  section.bg-infoservicios div h1 {
+    font-size: 4rem;
   }
 }
 /* variable */
