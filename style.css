@@ -146,6 +146,9 @@ header .navegacion ul li.nav-item a.active {
 @media (min-width: 960px) {
   header .navegacion ul li.nav-item .nav-link {
     font-size: 17px; } }
+@media (min-width: 1366px) {
+  header .navegacion ul li.nav-item .nav-link {
+    font-size: 20px; } }
 @media (min-width: 1300px) {
   header .img-logo {
     height: 100px; } }
