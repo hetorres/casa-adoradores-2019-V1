@@ -1,0 +1,80 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+/*font-family: 'Playball', cursive;
+font-family: 'Racing Sans One', cursive; */
+
+
+
+$primario: #ffd711;
+$secundario: #ffffb8;
+$terciario: #191a17;
+$color-texto:#2b2b2b;
+$color-comment:#f4f4f4;
+$font-family-titulo: 'Lato', sans-serif;
+$font-family-text: 'Lato', sans-serif;
+
+// CUERPO DE LA WEB
+body{
+    font-family: $font-family-text;
+    font-weight: 300;
+    font-size:16px;
+    color:$color-texto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $font-family-titulo;
+}
+
+p{
+    font-weight: 300;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+
+
+
+@media (min-width:720px){
+}
+
+@media (min-width:960px){
+}
+
+@media (min-width:1300px){
+
+}
+

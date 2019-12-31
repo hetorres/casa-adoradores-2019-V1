@@ -1,125 +1,9 @@
-/*
-FUNCIONES PRIMARIAS PARA LA WEB
-*/
-/* 
-font-family: 'Raleway', sans-serif;
-font-family: 'Asap', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Playball', cursive;
-font-family: 'Racing Sans One', cursive; */
-
-
-
-$primario: #ffd711;
-$secundario: #ffffb8;
-$terciario: #191a17;
-$color-texto:#2b2b2b;
-$color-comment:#f4f4f4;
-$font-family-titulo: 'Lato', sans-serif;
-$font-family-text: 'Lato', sans-serif;
-
-// CUERPO DE LA WEB
-body{
-    font-family: $font-family-text;
-    font-weight: 300;
-    font-size:16px;
-    color:$color-texto;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: $font-family-titulo;
-}
-
-p{
-    font-weight: 300;
-    line-height: 2rem;
-    font-size: 1.1rem;
-}
-
-
-
-
-@media (min-width:720px){
-}
-
-@media (min-width:960px){
-}
-
-@media (min-width:1300px){
-
-}
-
-
-
-// HEADER DE LA WEB
-
-
-header .img-logo{
-    height: 80px;
-}
-
-header .navegacion .navbar-toggler{
-    color: #f8f9fa;
-    border-color: #dee2e6;
-}
-
-
-header .navegacion .navbar-toggler-icon{
-    background-color: #f8f402;
-}
-
-header .navegacion .nav-link{
-    color:#fff;
-    font-family:$font-family-titulo;
-    font-weight: 700;
-    transition: border-top .2s ease-in-out;
-    transition: border-bottom .2s ease-in-out;
-}
-
-header .navegacion .nav-link:hover{
-    color:$secundario;
-    border-top: 3px solid $primario; 
-    border-bottom: 3px solid $primario; 
-}
-
-header .navegacion .nav-link.active{
-    color:$primario;
-}
-
-header .navegacion .nav-link.active:before{
-}
-
-
-@media (min-width:720px){
-    header .img-logo{
-        height: 80px;
-    }
-
-    header .navegacion .nav-link{
-        color:#fff;
-        font-family:$font-family-titulo;
-        font-weight: 700;
-    }}
-
-@media (min-width:960px){
-    header .navegacion .nav-link{
-        font-size: 17px;
-    }
-}
-
-@media (min-width:1300px){
-    header .img-logo{
-        height: 100px;
-    }
-
-}
-
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
 
 
 // SECTION FONDO INICIO
-
-
 section.bg-centro{
     background-image: url(../img/fondo/fondo-1.jpg);
     min-height: 600px;
@@ -160,7 +44,6 @@ section.bg-centro h1{
 
 section.bg-servicio{
     background-color:$primario;
-    margin-top: -10px !important;
 }
 
 section.bg-servicio .container{
@@ -371,78 +254,6 @@ section.bg-infoservicios div h1{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// FLOATING ACTION BUTTON
-
-
-
-/* variable */
-
-/* scss-file */
-
-*, body *{
-    z-index: 10;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-#floating-action-button{
-  position: fixed;
-  bottom: 1vh;
-  right: 1vw;
-  min-width: 50px;
-  min-height: 50px;
-  max-width: 60px;
-  max-height: 60px;
-  width: 5vw;
-  height: 5vw;
-  border-radius: 100%;
-  
-  cursor: pointer;
-  
-  /* center-flex */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-    
-  /* material shadow */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);  
-  &:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-  i{
-    font-size: 2rem;
-    color: $color-texto;
-  }
-}
-
-/* DO NOT COPY */
-/* 
-.just-for-codepen{
-    color: #212121;
-    background: linear-gradient(to bottom, #f3e5f5 0%,#f3e5f5 10%,#e1bee7 10%,#e1bee7 20%,#ce93d8 20%,#ce93d8 30%,#ba68c8 30%,#ba68c8 40%,#ab47bc 40%,#ab47bc 50%,#9c27b0 50%,#9c27b0 60%,#8e24aa 60%,#8e24aa 70%,#7b1fa2 70%,#7b1fa2 80%,#6a1b9a 80%,#6a1b9a 90%,#4a148c 90%,#4a148c 100%);
-    height: 100vh;
-    padding: 20vw 20vh;
-    a{
-    color: #212121;
-    text-decoration: none;
-        &:hover{
-            color: #304FFE;
-            text-decoration: underline;
-        }
-    }
-} */
+//Acerca de Casa de Adoradores
 
 

@@ -1,0 +1,2489 @@
+
+.ng-cloak,
+.x-ng-cloak,
+[data-ng-cloak],
+[ng-cloak],
+[ng\:cloak],
+[x-ng-cloak] {
+    display: none!important
+}
+.moto-widget {
+    position: relative
+}
+.frame-empty,
+.moto-widget-cover {
+    display: none
+}
+.moto-anchor {
+    position: absolute;
+    top: 0
+}
+.moto-align-left {
+    text-align: left
+}
+.moto-align-center {
+    text-align: center
+}
+.moto-align-right {
+    text-align: right
+}
+.moto-absolute-position__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+.moto-absolute-position {
+    position: absolute
+}
+.moto-absolute-position_left-top {
+    top: 0;
+    left: 0
+}
+.moto-absolute-position_center-top,
+.moto-absolute-position_top {
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.moto-absolute-position_right-top {
+    top: 0;
+    right: 0
+}
+.moto-absolute-position_left,
+.moto-absolute-position_left-center {
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.moto-absolute-position_center,
+.moto-absolute-position_center-center {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.moto-absolute-position_right,
+.moto-absolute-position_right-center {
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.moto-absolute-position_left-bottom {
+    bottom: 0;
+    left: 0
+}
+.moto-absolute-position_bottom,
+.moto-absolute-position_center-bottom {
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.moto-absolute-position_right-bottom {
+    bottom: 0;
+    right: 0
+}
+.moto-back-to-top-button {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 500
+}
+.moto-back-to-top-button.moto-back-to-top-button_visible {
+    visibility: visible;
+    opacity: 1
+}
+.moto-back-to-top-button .moto-back-to-top-button-link {
+    display: inline-block
+}
+.moto-popup__content_error {
+    font-family: Verdana, sans-serif;
+    color: #d3d8db;
+    font-size: 16px;
+    text-align: center
+}
+.moto-popup_content .moto-sticky__attached_top {
+    top: 50px
+}
+.moto-background-video-container {
+    overflow: hidden;
+    border-radius: inherit;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+.moto-background-video {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto
+}
+.moto-background-video_fill-by-height {
+    max-height: 100%;
+    max-width: none
+}
+@-webkit-keyframes zb {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+@keyframes zb {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+@media screen and (max-width: 1039px) {
+    .moto-visible-on_desktop {
+        display: none
+    }
+}
+@media screen and (max-width: 767px) {
+    .moto-visible-on_tablet {
+        display: none
+    }
+}
+@media screen and (max-width: 479px) {
+    .moto-visible-on_mobile-h {
+        display: none
+    }
+}
+@media screen and (max-width: 1039px) {
+    .moto-align-left_tablet {
+        text-align: left
+    }
+    .moto-align-center_tablet {
+        text-align: center
+    }
+    .moto-align-right_tablet {
+        text-align: right
+    }
+}
+@media screen and (max-width: 767px) {
+    .moto-align-left_mobile-h {
+        text-align: left
+    }
+    .moto-align-center_mobile-h {
+        text-align: center
+    }
+    .moto-align-right_mobile-h {
+        text-align: right
+    }
+}
+@media screen and (max-width: 479px) {
+    .moto-align-left_mobile-v {
+        text-align: left
+    }
+    .moto-align-center_mobile-v {
+        text-align: center
+    }
+    .moto-align-right_mobile-v {
+        text-align: right
+    }
+}
+.moto-sticky__hidden {
+    display: none
+}
+.moto-sticky__attached,
+.moto-sticky__attached_bottom,
+.moto-sticky__attached_top {
+    position: fixed;
+    z-index: 400;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -moz-transform: none
+}
+.moto-sticky__attached_top {
+    top: 0
+}
+.moto-sticky__attached_bottom {
+    bottom: 0
+}
+.moto-sticky-pseudo-element {
+    position: static
+}
+@media screen and (max-width: 767px) {
+    .moto-sticky-pseudo-element,
+    .moto-widget.moto-sticky__hidden {
+        display: none!important
+    }
+    .moto-section.moto-sticky__attached,
+    .moto-widget.moto-sticky__attached {
+        position: static!important;
+        width: auto!important;
+        -webkit-transform: initial;
+        transform: none
+    }
+}
+.lazyload {
+    min-height: 1px;
+    display: block
+}
+.moto-widget-accordion .moto-widget-accordion__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.moto-widget-accordion .moto-widget-accordion__header:focus {
+    outline: none
+}
+.moto-widget-accordion .moto-widget-accordion__header-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+.moto-widget-accordion .moto-widget-accordion__header-icon {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+}
+.moto-widget-accordion .moto-widget-accordion__header-title {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3
+}
+.moto-widget-accordion .moto-widget-accordion__collapse-icon {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4
+}
+.moto-widget-accordion .moto-widget-accordion__item_collapse-icon-left .moto-widget-accordion__collapse-icon {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+.moto-widget-accordion .moto-widget-accordion__item:last-child {
+    margin-bottom: 0
+}
+.moto-widget-accordion.moto-preset-default .moto-widget-accordion__header {
+    padding: 13px 3px
+}
+.moto-widget-accordion.moto-preset-default .moto-widget-accordion__header-item {
+    margin: 0 7px
+}
+.moto-widget-accordion.moto-preset-default .moto-widget-accordion__content {
+    padding: 6px 10px 13px
+}
+.moto-widget-accordion.moto-preset-2 .moto-widget-accordion__header {
+    padding: 12px 15px
+}
+.moto-widget-accordion.moto-preset-2 .moto-widget-accordion__header-item {
+    margin: 0 5px
+}
+.moto-widget-accordion.moto-preset-2 .moto-widget-accordion__content {
+    padding: 6px 20px 12px
+}
+.moto-widget-accordion.moto-preset-3 .moto-widget-accordion__header {
+    padding: 13px 25px
+}
+.moto-widget-accordion.moto-preset-3 .moto-widget-accordion__header-item {
+    margin: 0 5px
+}
+.moto-widget-accordion.moto-preset-3 .moto-widget-accordion__content {
+    padding: 7px 30px 13px
+}
+.moto-media-player .mejs-container,
+.moto-media-player .mejs-controls,
+.moto-media-player .mejs-inner,
+.moto-media-player .moto-media-player-container {
+    min-height: 42px
+}
+.moto-media-player .mejs-time {
+    white-space: nowrap
+}
+.moto-media-player .mejs-time span {
+    position: relative;
+    width: auto;
+    display: inline-block
+}
+.moto-media-player .mejs-controls .mejs-button button {
+    width: 41px;
+    height: 100%
+}
+.moto-media-player .mejs-container {
+    background: none;
+    height: 100%
+}
+.moto-media-player .mejs-controls {
+    min-width: 346px;
+    background: none;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid;
+    border-radius: 3px
+}
+@media screen and (max-width: 1039px) {
+    .moto-media-player .mejs-controls {
+        min-width: 218px
+    }
+}
+.moto-media-player .mejs-controls div {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit
+}
+.moto-media-player .mejs-controls>div {
+    float: none;
+    display: inline-block;
+    border-left: 1px solid;
+    border-color: inherit
+}
+.moto-media-player .mejs-controls>div:first-child {
+    border: none
+}
+.moto-media-player .mejs-controls .mejs-button {
+    height: 100%;
+    width: 41px;
+    position: relative
+}
+.moto-media-player .mejs-controls .mejs-button button {
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #d3d8db
+}
+.moto-media-player .mejs-controls .mejs-button button:before {
+    display: inline-block;
+    font: normal normal normal 19px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+.moto-media-player .mejs-controls .mejs-button button:hover {
+    color: #81868c
+}
+.moto-media-player .mejs-controls .mejs-button.mejs-play button:before {
+    content: "\f04b"
+}
+.moto-media-player .mejs-controls .mejs-button.mejs-pause button:before {
+    content: "\f04c"
+}
+.moto-media-player .mejs-controls .mejs-button.mejs-stop button:before {
+    content: "\f04d"
+}
+.moto-media-player .mejs-controls .mejs-time-rail {
+    position: relative;
+    padding: 0 10px;
+    height: 100%
+}
+.moto-media-player .mejs-controls .mejs-time-rail div.mejs-moto-track-name {
+    position: absolute;
+    padding-top: 6px;
+    left: 10px;
+    right: 0;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 22px;
+    background: transparent;
+    white-space: nowrap
+}
+.moto-media-player .mejs-controls .mejs-spacer {
+    width: 10px
+}
+.moto-media-player .mejs-controls .mejs-time {
+    position: absolute;
+    right: 10px;
+    height: 0;
+    overflow: visible;
+    padding: 0;
+    top: 6px;
+    color: inherit
+}
+.moto-media-player .mejs-controls .mejs-time span {
+    padding-left: 3px;
+    cursor: default
+}
+.moto-media-player .mejs-controls .mejs-volume-button {
+    width: 130px
+}
+@media screen and (max-width: 1039px) {
+    .moto-media-player .mejs-controls .mejs-volume-button {
+        display: none!important
+    }
+}
+.moto-media-player .mejs-controls .mejs-volume-button button {
+    width: 41px
+}
+.moto-media-player .mejs-controls .mejs-volume-button .mejs-horizontal-volume-slider {
+    display: block!important;
+    left: 41px;
+    height: 100%;
+    width: 80px
+}
+.moto-media-player .mejs-controls .mejs-volume-button .mejs-horizontal-volume-current,
+.moto-media-player .mejs-controls .mejs-volume-button .mejs-horizontal-volume-total {
+    top: 17px;
+    width: 80px
+}
+.moto-media-player .mejs-controls .mejs-volume-button .mejs-horizontal-volume-handle {
+    top: 13px
+}
+.moto-media-player .mejs-controls .mejs-horizontal-volume-slider div.mejs-horizontal-volume-handle,
+.moto-media-player .mejs-controls .mejs-time-handle {
+    display: block;
+    width: 6px;
+    height: 6px;
+    left: -7px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 4px solid #fff;
+    text-align: center;
+    box-sizing: content-box;
+    position: relative
+}
+.moto-media-player .mejs-controls .mejs-horizontal-volume-handle {
+    margin-left: -5px
+}
+.moto-media-player .mejs-controls .mejs-time-handle {
+    top: -4px
+}
+.moto-media-player .mejs-controls .mejs-time-total {
+    margin: 0;
+    background: #d0d1d5;
+    bottom: 7px
+}
+.moto-media-player .mejs-controls .mejs-horizontal-volume-total,
+.moto-media-player .mejs-controls .mejs-time-loaded {
+    background: #bfc3c6
+}
+.moto-media-player .mejs-controls .mejs-horizontal-volume-current,
+.moto-media-player .mejs-controls .mejs-time-current {
+    background: #7f878a
+}
+.moto-media-player .mejs-controls .mejs-horizontal-volume-current,
+.moto-media-player .mejs-controls .mejs-horizontal-volume-total,
+.moto-media-player .mejs-controls .mejs-time-current,
+.moto-media-player .mejs-controls .mejs-time-loaded,
+.moto-media-player .mejs-controls .mejs-time-total {
+    height: 6px;
+    border-radius: 5px
+}
+.moto-media-player .mejs-controls .mejs-moto-loop-button button:before {
+    content: "\f079";
+    top: -1px
+}
+.moto-media-player .mejs-controls .mejs-fullscreen-button button:before {
+    content: "\f0b2"
+}
+.moto-media-player .mejs-controls .mejs-moto-last-hidden-button {
+    width: 0;
+    border: none
+}
+.moto-media-player .mejs-inner .mejs-controls .mejs-button.mejs-button_active button:hover {
+    background-color: inherit
+}
+.moto-media-player .mejs-inner .mejs-controls .mejs-button.mejs-button_active button:hover:before {
+    color: inherit
+}
+.moto-media-player .mejs-inner .mejs-controls .mejs-button.mejs-volume-button button,
+.moto-media-player .mejs-inner .mejs-controls .mejs-button.mejs-volume-button button:hover {
+    background-color: inherit
+}
+.moto-media-player .mejs-button button:focus,
+.moto-media-player .mejs-time-total {
+    outline: 0
+}
+.moto-media-player .mejs-time-rail .mejs-time-float {
+    z-index: 50;
+    background: #55616d;
+    color: #d3d8db;
+    border: none;
+    height: 14px;
+    width: auto;
+    top: -23px;
+    margin-left: -18px;
+    border-radius: 3px
+}
+.moto-media-player .mejs-time-rail .mejs-time-float-current {
+    width: auto;
+    margin: 0;
+    position: relative;
+    padding: 0 4px;
+    font: normal normal normal 11px Tahoma, sans-serif
+}
+.moto-media-player .mejs-time-rail .mejs-time-float-corner {
+    border-color: #55616d transparent transparent;
+    top: 12px;
+    left: 13px
+}
+.moto-media-player .mejs-time-rail .mejs-time-total .mejs-time-buffering {
+    height: 6px
+}
+.moto-media-player .mejs-mute button:before {
+    content: "\f028"
+}
+.moto-media-player .mejs-unmute button:before {
+    content: "\f026";
+    right: 5px
+}
+.moto-media-player .mejs-container audio {
+    display: block
+}
+.moto-media-player audio {
+    display: none
+}
+.moto-media-player .mejs-layers .mejs-overlay-play .mejs-overlay-button,
+.moto-media-player .mejs-layers .mejs-overlay-play .mejs-overlay-button:hover {
+    background: none
+}
+.moto-media-player .mejs-overlay-button {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 82px
+}
+.moto-media-player .mejs-overlay-button:before {
+    content: "\f04b";
+    display: inline-block;
+    font: normal normal normal 83px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+.moto-media-player .mejs-layers {
+    display: none
+}
+.moto-media-player.moto-media-player_not-loaded .mejs-controls {
+    display: block!important
+}
+.moto-media-player.moto-media-player_loaded .mejs-layers {
+    display: block
+}
+.moto-media-player.moto-media-player_loaded .mejs-container-fullscreen video {
+    background: #0d0d0d
+}
+.moto-media-player .mejs-overlay-loading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 5px solid hsla(196, 4%, 52%, .2);
+    border-left-color: #7f878a;
+    -webkit-animation: zb 1.1s infinite linear;
+    animation: zb 1.1s infinite linear;
+    z-index: 1
+}
+.moto-media-player .mejs-overlay-loading,
+.moto-media-player .mejs-overlay-loading span {
+    background: transparent
+}
+.moto-media-player .mejs-overlay-play {
+    overflow: hidden
+}
+.moto-widget-back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 500;
+    text-align: center;
+    line-height: 0
+}
+.moto-widget-back-to-top-link {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer
+}
+.moto-preview-mode_design .moto-widget-back-to-top,
+.moto-widget-back-to-top.moto-back-to-top-button_visible {
+    visibility: visible;
+    opacity: 1
+}
+.moto-widget-block>.container-fluid,
+.moto-widget-block>.container-fluid>.row>.moto-cell {
+    padding: 0
+}
+.moto-widget-block>.container-fluid>.row {
+    margin: 0
+}
+.moto-widget-blog-recent_posts .moto-widget-blog-recent_posts-list {
+    list-style-type: none
+}
+.moto-widget-blog-recent_posts .moto-widget-blog-recent_posts-list .moto-widget-blog-recent_posts-item:last-child .moto-widget-text {
+    padding-bottom: 0
+}
+.moto-widget-blog-post_list .moto-blog-posts-list,
+.moto-widget-blog-post_list .moto-pagination-pager {
+    list-style-type: none
+}
+.moto-widget-blog-post-author-icon,
+.moto-widget-blog-post_published_on .moto-widget-blog-post_published_on-icon {
+    margin-right: 10px
+}
+.moto-widget-button .moto-widget-button-link {
+    display: inline-block;
+    cursor: pointer
+}
+.moto-widget-button .moto-widget-theme-icon {
+    display: none
+}
+.moto-widget-button button {
+    background: none;
+    border: none;
+    font: inherit;
+    outline: none
+}
+@-webkit-keyframes Ab {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        left: 0;
+        opacity: 1
+    }
+    12.5% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    25% {
+        left: 0
+    }
+    37.5% {
+        left: 18px
+    }
+    50% {
+        left: 18px
+    }
+    62.5% {
+        left: 36px
+    }
+    75% {
+        left: 36px;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    87.5% {
+        left: 36px;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+    to {
+        left: 36px;
+        opacity: 0
+    }
+}
+@keyframes Ab {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        left: 0;
+        opacity: 1
+    }
+    12.5% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    25% {
+        left: 0
+    }
+    37.5% {
+        left: 18px
+    }
+    50% {
+        left: 18px
+    }
+    62.5% {
+        left: 36px
+    }
+    75% {
+        left: 36px;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    87.5% {
+        left: 36px;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+    to {
+        left: 36px;
+        opacity: 0
+    }
+}
+.moto-widget-carousel .carousel-empty {
+    display: none
+}
+.moto-widget-carousel .moto-widget-carousel-item img {
+    width: 100%
+}
+.moto-widget-carousel .moto-widget-carousel-item .moto-widget-carousel-link {
+    width: 100%;
+    display: inline-block
+}
+.moto-widget-carousel .loading-block,
+.moto-widget-carousel.moto-widget-carousel-loader .bx-controls {
+    display: none
+}
+.moto-widget-carousel.moto-widget-carousel-loader .moto-widget-carousel-item {
+    position: absolute;
+    list-style: none;
+    visibility: hidden
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-block {
+    display: block;
+    height: 40px;
+    width: 46px;
+    margin: 0 auto;
+    position: relative
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle {
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    text-align: center;
+    -webkit-animation: Ab 1.25s linear infinite;
+    animation: Ab 1.25s linear infinite
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle>div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2d2f3a
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle:first-of-type {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle:nth-of-type(2) {
+    -webkit-animation-delay: .3125s;
+    animation-delay: .3125s
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle:nth-of-type(3) {
+    -webkit-animation-delay: .625s;
+    animation-delay: .625s
+}
+.moto-widget-carousel.moto-widget-carousel-loader .loading-circle:nth-of-type(4) {
+    -webkit-animation-delay: .9375s;
+    animation-delay: .9375s
+}
+.moto-widget-completion_bars__item {
+    padding-bottom: 20px
+}
+.moto-widget-completion_bars__item:last-child {
+    padding-bottom: 0
+}
+.moto-widget-completion_bars__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 5px
+}
+.moto-widget-completion_bars__header-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+.moto-widget-completion_bars__header-label {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2 1 auto;
+    -ms-flex: 2 1 auto;
+    flex: 2 1 auto
+}
+.moto-widget-completion_bars__header-progress {
+    margin-left: 30px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: right
+}
+.moto-widget-completion_bars__header_no-margin .moto-widget-completion_bars__header-progress {
+    margin-left: 0
+}
+.moto-widget-completion_bars__stripe-background {
+    width: 100%;
+    overflow: hidden
+}
+.moto-widget-completion_bars__stripe-foreground {
+    float: left;
+    height: 100%;
+    -webkit-transition: width .5s ease-out;
+    transition: width .5s ease-out
+}
+body:not(.moto-preview) .moto-before-in-viewport .moto-widget-completion_bars__stripe-foreground {
+    width: 0!important
+}
+.moto-widget-completion_bars__rounded-foreground .moto-widget-completion_bars__stripe-foreground {
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit
+}
+.moto-widget-contact_form .moto-widget-contact_form-form {
+    width: 100%;
+    overflow: hidden
+}
+.moto-widget-contact_form .moto-widget-contact_form-group {
+    position: relative
+}
+.moto-widget-contact_form .moto-widget-contact_form-field {
+    display: block;
+    width: 100%
+}
+.moto-widget-contact_form .moto-widget-contact_form-field.moto-widget-contact_form-textarea {
+    resize: none
+}
+.moto-widget-contact_form .moto-widget-contact_form-checkbox {
+    display: none
+}
+.moto-widget-contact_form .moto-widget-contact_form-checkbox-label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.moto-widget-contact_form .moto-widget-contact_form-checkbox-icon {
+    border: 1px solid;
+    cursor: pointer;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+.moto-widget-contact_form .moto-widget-contact_form-checkbox-text {
+    padding-left: 9px;
+    display: inline-block
+}
+.moto-widget-contact_form .moto-widget-contact_form-checkbox-checked .moto-widget-contact_form-checkbox-icon:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: .75em;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased
+}
+.row-gutter-0 .moto-widget-contact_form-group__attachment .moto-widget-button {
+    padding-left: 15px
+}
+.moto-widget-container {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-position: 0 0;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 0 none transparent;
+    border-radius: 0
+}
+.moto-cookie-notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 1000;
+    padding: 20px 46px 20px 30px
+}
+@media screen and (max-width: 767px) {
+    .moto-cookie-notification {
+        padding: 20px 40px 20px 20px
+    }
+}
+.moto-cookie-notification_visible {
+    display: block
+}
+.moto-cookie-notification__button_close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 1;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+.moto-widget-countdown {
+    line-height: 0
+}
+.moto-widget-countdown .countdown-timer {
+    display: inline-block;
+    line-height: normal
+}
+.moto-widget-countdown .countdown-item {
+    float: left;
+    display: table
+}
+.moto-widget-countdown .countdown-item:last-child .countdown-item-wrapper {
+    padding-right: 0
+}
+.moto-widget-countdown .countdown-item:last-child .countdown-item-delimiter {
+    display: none
+}
+.moto-widget-countdown .countdown-item-wrapper {
+    float: left
+}
+.moto-widget-countdown .countdown-item-block {
+    position: relative;
+    float: left
+}
+.moto-widget-countdown .countdown-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+.moto-widget-countdown .countdown-item-amount,
+.moto-widget-countdown .countdown-item-unit {
+    line-height: normal
+}
+.moto-widget-countdown .countdown-item-delimiter {
+    position: relative;
+    clear: both;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+.moto-widget-countdown .countdown-item-unit {
+    position: relative;
+    text-transform: capitalize;
+    bottom: 5px
+}
+.moto-widget-divider {
+    font-size: 0
+}
+.moto-widget-divider .moto-widget-divider-line {
+    margin: 0;
+    display: inline-block;
+    width: 100%
+}
+.moto-widget-facebook_page_plugin .fb-page {
+    overflow-y: hidden;
+    max-width: 100%
+}
+.moto-form__field-control {
+    width: 100%
+}
+.moto-form__field-control_checkbox,
+.moto-form__field-control_radio {
+    width: auto;
+    display: none
+}
+.moto-form__field-control_textarea {
+    resize: none;
+    display: block
+}
+.moto-form__field-options_vertical .moto-form__field-options-item {
+    display: block
+}
+.moto-form__errors_only-first .moto-form__error-item {
+    display: none
+}
+.moto-form__errors_only-first .moto-form__error-item:first-child {
+    display: block
+}
+.moto-form__field-label {
+    cursor: default
+}
+.moto-form__field-control,
+.moto-form__field-icon,
+.moto-form__field-label,
+.moto-form__field-text {
+    outline: none
+}
+.moto-form__element_input .moto-form__field {
+    position: relative
+}
+.moto-form__element_input .moto-form__field-icon {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.moto-form__element_checkbox .moto-form__field-label,
+.moto-form__element_radio .moto-form__field-label {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.moto-form__element_checkbox .moto-form__field-icon,
+.moto-form__element_radio .moto-form__field-icon {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+.moto-form__element_attachment .moto-form__field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.moto-form__element_attachment .moto-widget-button-link {
+    white-space: nowrap
+}
+.moto-widget-form_elements-recaptcha .moto-form__element_recaptcha {
+    display: inline-block
+}
+.moto-preset-default .moto-form__field-control_input,
+.moto-preset-default .moto-form__field-control_select,
+.moto-preset-default .moto-form__field-control_textarea {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #d3d8db;
+    font-size: 15px;
+    color: #353159;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-default .moto-form__field-control_input::-webkit-input-placeholder,
+.moto-preset-default .moto-form__field-control_select::-webkit-input-placeholder,
+.moto-preset-default .moto-form__field-control_textarea::-webkit-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-default .moto-form__field-control_input::-moz-placeholder,
+.moto-preset-default .moto-form__field-control_select::-moz-placeholder,
+.moto-preset-default .moto-form__field-control_textarea::-moz-placeholder {
+    color: #7e81a5
+}
+.moto-preset-default .moto-form__field-control_input:-ms-input-placeholder,
+.moto-preset-default .moto-form__field-control_select:-ms-input-placeholder,
+.moto-preset-default .moto-form__field-control_textarea:-ms-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-default .moto-form__field-control_input:focus,
+.moto-preset-default .moto-form__field-control_select:focus,
+.moto-preset-default .moto-form__field-control_textarea:focus {
+    border-color: #09a4fb
+}
+.moto-preset-default .moto-form__field-control_input,
+.moto-preset-default .moto-form__field-control_select {
+    height: 44px;
+    padding: 0 15px
+}
+.moto-preset-default .moto-form__field-control_select {
+    color: #7e81a5
+}
+.moto-preset-default .moto-form__field-control_textarea {
+    padding: 10px 15px;
+    line-height: 24px
+}
+.moto-preset-default .moto-form__field_with-icon .moto-form__field-control_input {
+    padding-left: 42px
+}
+.moto-preset-default .moto-form__element_input .moto-form__field-icon {
+    left: 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #7e81a5
+}
+.moto-preset-default .moto-form__element_checkbox .moto-form__field-text,
+.moto-preset-default .moto-form__element_radio .moto-form__field-text {
+    margin-left: 10px
+}
+.moto-preset-default .moto-form__element_checkbox .moto-form__field-label,
+.moto-preset-default .moto-form__element_radio .moto-form__field-label {
+    color: #353159;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-default .moto-form__element_checkbox .moto-form__field-icon,
+.moto-preset-default .moto-form__element_radio .moto-form__field-icon {
+    color: #7e81a5;
+    font-size: 20px
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon,
+.moto-preset-default .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon {
+    color: #353159
+}
+.moto-preset-default .moto-form__element_checkbox .moto-form__field-icon:before {
+    content: "\f096"
+}
+.moto-preset-default .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon:before {
+    content: "\f14a"
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-icon:before {
+    content: "\f1db"
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon:before {
+    content: "\f192"
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-options-item {
+    margin-bottom: 10px
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item {
+    margin-right: 30px
+}
+.moto-preset-default .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item:last-child {
+    margin-right: 0
+}
+.moto-preset-default .moto-form__error-item {
+    color: #ff6464;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 5px
+}
+.moto-preset-default .moto-form__element_invalid .moto-form__field-control_input,
+.moto-preset-default .moto-form__element_invalid .moto-form__field-control_select,
+.moto-preset-default .moto-form__element_invalid .moto-form__field-control_textarea {
+    border-color: #ff6464
+}
+.moto-preset-default .moto-form__element.moto-form__element_invalid .moto-form__field-icon {
+    color: #ff6464
+}
+.moto-preset-2 .moto-form__field-control_input,
+.moto-preset-2 .moto-form__field-control_select,
+.moto-preset-2 .moto-form__field-control_textarea {
+    background: #10151b;
+    border-radius: 0;
+    border: 1px solid #4e5964;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-2 .moto-form__field-control_input::-webkit-input-placeholder,
+.moto-preset-2 .moto-form__field-control_select::-webkit-input-placeholder,
+.moto-preset-2 .moto-form__field-control_textarea::-webkit-input-placeholder {
+    color: #4e5964
+}
+.moto-preset-2 .moto-form__field-control_input::-moz-placeholder,
+.moto-preset-2 .moto-form__field-control_select::-moz-placeholder,
+.moto-preset-2 .moto-form__field-control_textarea::-moz-placeholder {
+    color: #4e5964
+}
+.moto-preset-2 .moto-form__field-control_input:-ms-input-placeholder,
+.moto-preset-2 .moto-form__field-control_select:-ms-input-placeholder,
+.moto-preset-2 .moto-form__field-control_textarea:-ms-input-placeholder {
+    color: #4e5964
+}
+.moto-preset-2 .moto-form__field-control_input:focus,
+.moto-preset-2 .moto-form__field-control_select:focus,
+.moto-preset-2 .moto-form__field-control_textarea:focus {
+    border-color: #8a98a5
+}
+.moto-preset-2 .moto-form__field-control_input,
+.moto-preset-2 .moto-form__field-control_select {
+    height: 44px;
+    padding: 0 15px
+}
+.moto-preset-2 .moto-form__field-control_select {
+    color: #4e5964
+}
+.moto-preset-2 .moto-form__field-control_textarea {
+    padding: 10px 15px
+}
+.moto-preset-2 .moto-form__field_with-icon .moto-form__field-control_input {
+    padding-left: 42px
+}
+.moto-preset-2 .moto-form__element_input .moto-form__field-icon {
+    left: 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #4e5964
+}
+.moto-preset-2 .moto-form__element_checkbox .moto-form__field-text,
+.moto-preset-2 .moto-form__element_radio .moto-form__field-text {
+    margin-left: 10px
+}
+.moto-preset-2 .moto-form__element_checkbox .moto-form__field-label,
+.moto-preset-2 .moto-form__element_radio .moto-form__field-label {
+    color: #8a98a5;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-2 .moto-form__element_checkbox .moto-form__field-icon,
+.moto-preset-2 .moto-form__element_radio .moto-form__field-icon {
+    color: #4e5964;
+    font-size: 20px
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon,
+.moto-preset-2 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon {
+    color: #8a98a5
+}
+.moto-preset-2 .moto-form__element_checkbox .moto-form__field-icon:before {
+    content: "\f096"
+}
+.moto-preset-2 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon:before {
+    content: "\f14a"
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-icon:before {
+    content: "\f1db"
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon:before {
+    content: "\f192"
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-options-item {
+    margin-bottom: 10px
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item {
+    margin-right: 30px
+}
+.moto-preset-2 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item:last-child {
+    margin-right: 0
+}
+.moto-preset-2 .moto-form__error-item {
+    color: #ff6464;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 5px
+}
+.moto-preset-2 .moto-form__element_invalid .moto-form__field-control_input,
+.moto-preset-2 .moto-form__element_invalid .moto-form__field-control_select,
+.moto-preset-2 .moto-form__element_invalid .moto-form__field-control_textarea {
+    border-color: #ff6464
+}
+.moto-preset-2 .moto-form__element.moto-form__element_invalid .moto-form__field-icon {
+    color: #ff6464
+}
+.moto-preset-3 .moto-form__field-control_input,
+.moto-preset-3 .moto-form__field-control_select,
+.moto-preset-3 .moto-form__field-control_textarea {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #52bffc;
+    font-size: 15px;
+    color: #353159;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-3 .moto-form__field-control_input::-webkit-input-placeholder,
+.moto-preset-3 .moto-form__field-control_select::-webkit-input-placeholder,
+.moto-preset-3 .moto-form__field-control_textarea::-webkit-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-3 .moto-form__field-control_input::-moz-placeholder,
+.moto-preset-3 .moto-form__field-control_select::-moz-placeholder,
+.moto-preset-3 .moto-form__field-control_textarea::-moz-placeholder {
+    color: #7e81a5
+}
+.moto-preset-3 .moto-form__field-control_input:-ms-input-placeholder,
+.moto-preset-3 .moto-form__field-control_select:-ms-input-placeholder,
+.moto-preset-3 .moto-form__field-control_textarea:-ms-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-3 .moto-form__field-control_input:focus,
+.moto-preset-3 .moto-form__field-control_select:focus,
+.moto-preset-3 .moto-form__field-control_textarea:focus {
+    border-color: #09a4fb
+}
+.moto-preset-3 .moto-form__field-control_input,
+.moto-preset-3 .moto-form__field-control_select {
+    height: 44px;
+    padding: 0 15px
+}
+.moto-preset-3 .moto-form__field-control_select {
+    color: #7e81a5
+}
+.moto-preset-3 .moto-form__field-control_textarea {
+    padding: 10px 15px;
+    line-height: 24px
+}
+.moto-preset-3 .moto-form__field_with-icon .moto-form__field-control_input {
+    padding-left: 42px
+}
+.moto-preset-3 .moto-form__element_input .moto-form__field-icon {
+    left: 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #09a4fb
+}
+.moto-preset-3 .moto-form__element_checkbox .moto-form__field-text,
+.moto-preset-3 .moto-form__element_radio .moto-form__field-text {
+    margin-left: 10px
+}
+.moto-preset-3 .moto-form__element_checkbox .moto-form__field-label,
+.moto-preset-3 .moto-form__element_radio .moto-form__field-label {
+    color: #353159;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-3 .moto-form__element_checkbox .moto-form__field-icon,
+.moto-preset-3 .moto-form__element_radio .moto-form__field-icon {
+    color: #7e81a5;
+    font-size: 20px
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon,
+.moto-preset-3 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon {
+    color: #09a4fb
+}
+.moto-preset-3 .moto-form__element_checkbox .moto-form__field-icon:before {
+    content: "\f096"
+}
+.moto-preset-3 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon:before {
+    content: "\f14a"
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-icon:before {
+    content: "\f1db"
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon:before {
+    content: "\f192"
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-options-item {
+    margin-bottom: 10px
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item {
+    margin-right: 30px
+}
+.moto-preset-3 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item:last-child {
+    margin-right: 0
+}
+.moto-preset-3 .moto-form__error-item {
+    color: #ff6464;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 5px
+}
+.moto-preset-3 .moto-form__element_invalid .moto-form__field-control_input,
+.moto-preset-3 .moto-form__element_invalid .moto-form__field-control_select,
+.moto-preset-3 .moto-form__element_invalid .moto-form__field-control_textarea {
+    border-color: #ff6464
+}
+.moto-preset-3 .moto-form__element.moto-form__element_invalid .moto-form__field-icon {
+    color: #ff6464
+}
+.moto-preset-4 .moto-form__field-control_input,
+.moto-preset-4 .moto-form__field-control_select,
+.moto-preset-4 .moto-form__field-control_textarea {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #a2eabd;
+    font-size: 15px;
+    color: #353159;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-4 .moto-form__field-control_input::-webkit-input-placeholder,
+.moto-preset-4 .moto-form__field-control_select::-webkit-input-placeholder,
+.moto-preset-4 .moto-form__field-control_textarea::-webkit-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-4 .moto-form__field-control_input::-moz-placeholder,
+.moto-preset-4 .moto-form__field-control_select::-moz-placeholder,
+.moto-preset-4 .moto-form__field-control_textarea::-moz-placeholder {
+    color: #7e81a5
+}
+.moto-preset-4 .moto-form__field-control_input:-ms-input-placeholder,
+.moto-preset-4 .moto-form__field-control_select:-ms-input-placeholder,
+.moto-preset-4 .moto-form__field-control_textarea:-ms-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-4 .moto-form__field-control_input:focus,
+.moto-preset-4 .moto-form__field-control_select:focus,
+.moto-preset-4 .moto-form__field-control_textarea:focus {
+    border-color: #45d57b
+}
+.moto-preset-4 .moto-form__field-control_input,
+.moto-preset-4 .moto-form__field-control_select {
+    height: 44px;
+    padding: 0 15px
+}
+.moto-preset-4 .moto-form__field-control_select {
+    color: #7e81a5
+}
+.moto-preset-4 .moto-form__field-control_textarea {
+    padding: 10px 15px;
+    line-height: 24px
+}
+.moto-preset-4 .moto-form__field_with-icon .moto-form__field-control_input {
+    padding-left: 42px
+}
+.moto-preset-4 .moto-form__element_input .moto-form__field-icon {
+    left: 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #45d57b
+}
+.moto-preset-4 .moto-form__element_checkbox .moto-form__field-text,
+.moto-preset-4 .moto-form__element_radio .moto-form__field-text {
+    margin-left: 10px
+}
+.moto-preset-4 .moto-form__element_checkbox .moto-form__field-label,
+.moto-preset-4 .moto-form__element_radio .moto-form__field-label {
+    color: #353159;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-4 .moto-form__element_checkbox .moto-form__field-icon,
+.moto-preset-4 .moto-form__element_radio .moto-form__field-icon {
+    color: #7e81a5;
+    font-size: 20px
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon,
+.moto-preset-4 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon {
+    color: #45d57b
+}
+.moto-preset-4 .moto-form__element_checkbox .moto-form__field-icon:before {
+    content: "\f096"
+}
+.moto-preset-4 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon:before {
+    content: "\f14a"
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-icon:before {
+    content: "\f1db"
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon:before {
+    content: "\f192"
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-options-item {
+    margin-bottom: 10px
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item {
+    margin-right: 30px
+}
+.moto-preset-4 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item:last-child {
+    margin-right: 0
+}
+.moto-preset-4 .moto-form__error-item {
+    color: #ff6464;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 5px
+}
+.moto-preset-4 .moto-form__element_invalid .moto-form__field-control_input,
+.moto-preset-4 .moto-form__element_invalid .moto-form__field-control_select,
+.moto-preset-4 .moto-form__element_invalid .moto-form__field-control_textarea {
+    border-color: #ff6464
+}
+.moto-preset-4 .moto-form__element.moto-form__element_invalid .moto-form__field-icon {
+    color: #ff6464
+}
+.moto-preset-5 .moto-form__field-control_input,
+.moto-preset-5 .moto-form__field-control_select,
+.moto-preset-5 .moto-form__field-control_textarea {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #ffd69c;
+    font-size: 15px;
+    color: #353159;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-5 .moto-form__field-control_input::-webkit-input-placeholder,
+.moto-preset-5 .moto-form__field-control_select::-webkit-input-placeholder,
+.moto-preset-5 .moto-form__field-control_textarea::-webkit-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-5 .moto-form__field-control_input::-moz-placeholder,
+.moto-preset-5 .moto-form__field-control_select::-moz-placeholder,
+.moto-preset-5 .moto-form__field-control_textarea::-moz-placeholder {
+    color: #7e81a5
+}
+.moto-preset-5 .moto-form__field-control_input:-ms-input-placeholder,
+.moto-preset-5 .moto-form__field-control_select:-ms-input-placeholder,
+.moto-preset-5 .moto-form__field-control_textarea:-ms-input-placeholder {
+    color: #7e81a5
+}
+.moto-preset-5 .moto-form__field-control_input:focus,
+.moto-preset-5 .moto-form__field-control_select:focus,
+.moto-preset-5 .moto-form__field-control_textarea:focus {
+    border-color: #faba0e
+}
+.moto-preset-5 .moto-form__field-control_input,
+.moto-preset-5 .moto-form__field-control_select {
+    height: 44px;
+    padding: 0 15px
+}
+.moto-preset-5 .moto-form__field-control_select {
+    color: #7e81a5
+}
+.moto-preset-5 .moto-form__field-control_textarea {
+    padding: 10px 15px;
+    line-height: 24px
+}
+.moto-preset-5 .moto-form__field_with-icon .moto-form__field-control_input {
+    padding-left: 42px
+}
+.moto-preset-5 .moto-form__element_input .moto-form__field-icon {
+    left: 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #faba0e
+}
+.moto-preset-5 .moto-form__element_checkbox .moto-form__field-text,
+.moto-preset-5 .moto-form__element_radio .moto-form__field-text {
+    margin-left: 10px
+}
+.moto-preset-5 .moto-form__element_checkbox .moto-form__field-label,
+.moto-preset-5 .moto-form__element_radio .moto-form__field-label {
+    color: #353159;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: tahoma, arial, helvetica, sans-serif
+}
+.moto-preset-5 .moto-form__element_checkbox .moto-form__field-icon,
+.moto-preset-5 .moto-form__element_radio .moto-form__field-icon {
+    color: #7e81a5;
+    font-size: 20px
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon,
+.moto-preset-5 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon {
+    color: #faba0e
+}
+.moto-preset-5 .moto-form__element_checkbox .moto-form__field-icon:before {
+    content: "\f096"
+}
+.moto-preset-5 .moto-form__field-control_checkbox:checked+.moto-form__field-label .moto-form__field-icon:before {
+    content: "\f14a"
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-icon:before {
+    content: "\f1db"
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-options-item_selected .moto-form__field-icon:before {
+    content: "\f192"
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-options-item {
+    margin-bottom: 10px
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item {
+    margin-right: 30px
+}
+.moto-preset-5 .moto-form__element_radio .moto-form__field-options_horizontal .moto-form__field-options-item:last-child {
+    margin-right: 0
+}
+.moto-preset-5 .moto-form__error-item {
+    color: #ff6464;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 5px
+}
+.moto-preset-5 .moto-form__element_invalid .moto-form__field-control_input,
+.moto-preset-5 .moto-form__element_invalid .moto-form__field-control_select,
+.moto-preset-5 .moto-form__element_invalid .moto-form__field-control_textarea {
+    border-color: #ff6464
+}
+.moto-preset-5 .moto-form__element.moto-form__element_invalid .moto-form__field-icon {
+    color: #ff6464
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items {
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .moto-widget-grid-gallery-item {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    opacity: 0
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .moto-widget-grid-gallery-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    border: none
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .caption {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .caption.caption-visible {
+    display: block;
+    opacity: 1
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .caption-empty {
+    visibility: hidden
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .entry-visible {
+    opacity: 1
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .spinner {
+    position: absolute;
+    bottom: 0;
+    margin-left: -24px;
+    padding: 10px 0;
+    left: 50%;
+    opacity: 1;
+    -webkit-filter: initial;
+    filter: none;
+    overflow: initial
+}
+.moto-widget-grid-gallery .moto-widget-grid-gallery-items .spinner>span {
+    display: inline-block;
+    opacity: 0;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+    background-color: #000;
+    border-radius: 6px
+}
+.moto-lightbox_hidden-counter .mfp-counter {
+    display: none
+}
+.moto-lightbox_hidden-counter .mfp-title {
+    padding-right: 0
+}
+.moto-widget-iframe .moto-widget-iframe-frame {
+    display: block;
+    border: 0
+}
+.moto-widget-image {
+    font-size: 0
+}
+.moto-widget-image .moto-widget-image-link {
+    display: inline-block
+}
+.moto-widget-image .moto-widget-image-link:hover {
+    zoom: 1
+}
+.moto-widget-image .moto-widget-image-picture {
+    width: 100%;
+    max-width: 100%
+}
+.moto-widget-image.moto-widget-image_empty {
+    display: none
+}
+.moto-widget-instagram_post__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+.moto-align-left .moto-widget-instagram_post__wrapper {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+.moto-align-center .moto-widget-instagram_post__wrapper {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.moto-align-right .moto-widget-instagram_post__wrapper {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+@media screen and (max-width: 1039px) {
+    .moto-align-left_tablet .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .moto-align-center_tablet .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .moto-align-right_tablet .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+@media screen and (max-width: 767px) {
+    .moto-align-left_mobile-h .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .moto-align-center_mobile-h .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .moto-align-right_mobile-h .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+@media screen and (max-width: 479px) {
+    .moto-align-left_mobile-v .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .moto-align-center_mobile-v .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .moto-align-right_mobile-v .moto-widget-instagram_post__wrapper {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+.moto-widget-map .moto-widget-map-frame {
+    display: block;
+    width: 100%;
+    border: 0
+}
+.moto-widget-menu .moto-widget-menu-toggle-btn {
+    display: none;
+    text-align: center
+}
+@media screen and (max-width: 767px) {
+    .moto-widget-menu .moto-widget-menu-toggle-btn {
+        display: inline-block
+    }
+}
+.moto-widget-menu.moto-align-right .moto-widget-menu-sublist .moto-widget-menu-item .moto-widget-menu-sublist {
+    left: -100%
+}
+@media screen and (max-width: 767px) {
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list {
+        display: block;
+        padding: 0
+    }
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item {
+        display: block;
+        margin: 0
+    }
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link {
+        width: 100%
+    }
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link .moto-widget-menu-link-arrow {
+        display: none
+    }
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist {
+        position: static;
+        display: block;
+        padding: 0
+    }
+    .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist .moto-widget-menu-item {
+        width: auto;
+        max-width: 100%
+    }
+}
+.moto-widget-menu .moto-widget-menu-list {
+    list-style: none
+}
+@media screen and (max-width: 767px) {
+    .moto-widget-menu .moto-widget-menu-list {
+        position: absolute;
+        z-index: 500;
+        left: 0;
+        right: 0;
+        display: none
+    }
+}
+.moto-widget-menu .moto-widget-menu-list .moto-widget-menu-item {
+    display: inline-block;
+    position: relative
+}
+.moto-widget-menu .moto-widget-menu-sublist {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 500
+}
+.moto-widget-menu .moto-widget-menu-sublist .moto-widget-menu-item {
+    display: block
+}
+.moto-widget-menu .moto-widget-menu-sublist .moto-widget-menu-item .moto-widget-menu-sublist {
+    left: 100%;
+    top: 0
+}
+.moto-widget-menu .moto-widget-menu-sublist .moto-widget-menu-link {
+    position: relative;
+    display: block
+}
+.moto-widget-menu .moto-widget-menu-item:hover>.moto-widget-menu-sublist {
+    display: block
+}
+.moto-widget-pagination .moto-pagination-group {
+    list-style: none;
+    float: left;
+    cursor: default
+}
+.moto-widget-pagination .moto-pagination-group:last-child .moto-pagination-item:last-child {
+    margin-right: 0
+}
+.moto-widget-pagination .moto-pagination-item {
+    line-height: 0;
+    float: left;
+    text-align: center
+}
+.moto-widget-pagination .moto-pagination-item-control {
+    line-height: 0
+}
+.moto-widget-pagination .moto-pagination-link {
+    padding: 0 .75em;
+    display: table
+}
+.moto-widget-pagination .moto-pagination-link .moto-pagination-link-icon {
+    font-size: 1.42em;
+    line-height: 0;
+    height: 0;
+    padding-top: .039em
+}
+.moto-widget-pagination .moto-pagination-link-text {
+    display: table-cell;
+    vertical-align: middle
+}
+.moto-widget-pagination ul {
+    list-style: none;
+    display: inline-block
+}
+.moto-widget-pagination li {
+    line-height: 0;
+    float: left;
+    text-align: center
+}
+.moto-widget-pagination a {
+    padding: 0 .75em;
+    display: table
+}
+.moto-widget-pagination a i {
+    font-size: 1.42em;
+    line-height: 0;
+    height: 0;
+    padding-top: .039em
+}
+.moto-widget-pagination a span {
+    display: table-cell;
+    vertical-align: middle
+}
+.moto-widget-paypal_button__form {
+    outline: none
+}
+.moto-widget-paypal_button__form-image {
+    outline: none;
+    max-width: 100%
+}
+@media screen and (min-width: 767px) {
+    .moto-widget-block .container-fluid:after,
+    .moto-widget-block .container-fluid:before,
+    .moto-widget-row .container-fluid:after,
+    .moto-widget-row .container-fluid:before {
+        display: block
+    }
+    .moto-widget-block .row,
+    .moto-widget-row .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .moto-widget-block .row:after,
+    .moto-widget-block .row:before,
+    .moto-widget-row .row:after,
+    .moto-widget-row .row:before {
+        display: block
+    }
+    .moto-widget-row.moto-justify-content_bottom>.container-fluid>.row>.moto-cell,
+    .moto-widget-row.moto-justify-content_center>.container-fluid>.row>.moto-cell {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .moto-widget-row.moto-justify-content_bottom .moto-widget-image,
+    .moto-widget-row.moto-justify-content_bottom .moto-widget-menu,
+    .moto-widget-row.moto-justify-content_bottom .moto-widget-row,
+    .moto-widget-row.moto-justify-content_bottom .moto-widget-social-links,
+    .moto-widget-row.moto-justify-content_center .moto-widget-image,
+    .moto-widget-row.moto-justify-content_center .moto-widget-menu,
+    .moto-widget-row.moto-justify-content_center .moto-widget-row,
+    .moto-widget-row.moto-justify-content_center .moto-widget-social-links {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto
+    }
+    .moto-widget-row.moto-justify-content_center>.container-fluid>.row>.moto-cell {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .moto-widget-row.moto-justify-content_bottom>.container-fluid>.row>.moto-cell {
+        -webkit-box-pack: flex-end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: flex-end;
+        justify-content: flex-end
+    }
+}
+.row-fixed .container-fluid {
+    margin-left: auto;
+    margin-right: auto
+}
+.moto-disabling_row-fixed .row-fixed .container-fluid {
+    max-width: none
+}
+.row-gutter-0 .container-fluid,
+.row-gutter-0 .moto-cell {
+    padding-left: 0;
+    padding-right: 0
+}
+.row-gutter-0 .row {
+    margin-left: 0;
+    margin-right: 0
+}
+.moto-widget-row>.container-fluid .container-fluid {
+    padding-left: 0;
+    padding-right: 0
+}
+.moto-widget-slider .moto-widget-empty {
+    display: none
+}
+.moto-widget-slider .bx-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 0
+}
+.moto-widget-slider .bx-viewport {
+    -webkit-transform: translatez(0);
+    transform: translatez(0)
+}
+.moto-widget-slider .bx-caption {
+    position: absolute;
+    text-align: left
+}
+.moto-widget-slider .bx-caption_html {
+    text-align: left;
+    position: absolute;
+    right: 0;
+    left: 0
+}
+.moto-widget-slider .bx-controls-auto,
+.moto-widget-slider .bx-pager {
+    width: 100%
+}
+.moto-widget-slider .bx-loading {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    visibility: hidden
+}
+.moto-widget-slider .bx-pager {
+    text-align: center
+}
+.moto-widget-slider .bx-controls-auto .bx-controls-auto-item,
+.moto-widget-slider .bx-pager .bx-pager-item {
+    display: inline-block
+}
+.moto-widget-slider .bx-pager.bx-default-pager a {
+    display: block;
+    outline: 0
+}
+.moto-widget-slider .bx-controls-direction a {
+    position: absolute;
+    outline: 0;
+    z-index: 9999
+}
+.moto-widget-slider .bx-controls-direction a.bx-next.disabled,
+.moto-widget-slider .bx-controls-direction a.bx-prev.disabled {
+    display: none
+}
+.moto-widget-slider .bx-controls-auto {
+    text-align: center
+}
+.moto-widget-slider .bx-controls-auto .bx-start,
+.moto-widget-slider .bx-controls-auto .bx-stop {
+    display: block;
+    outline: 0
+}
+.moto-widget-slider li {
+    text-align: center;
+    width: 100%
+}
+.moto-widget-slider li img {
+    width: 100%;
+    display: inline-block
+}
+.moto-widget-slider li:before {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+}
+.moto-widget-slider.moto-widget-slider-loader .bx-caption,
+.moto-widget-slider.moto-widget-slider-loader .bx-controls {
+    visibility: hidden
+}
+.moto-widget-slider.moto-widget-slider-loader li {
+    position: absolute;
+    list-style: none
+}
+.moto-widget-slider.moto-widget-slider-loader li img {
+    visibility: hidden
+}
+.moto-widget-slider.moto-widget-slider-loader li:first-child {
+    position: relative!important;
+    min-height: 80px
+}
+.moto-widget-slider.moto-widget-slider-loader li:first-child:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 5px solid;
+    border-top-color: rgba(24, 27, 39, .2);
+    border-right-color: rgba(24, 27, 39, .2);
+    border-bottom-color: rgba(24, 27, 39, .2);
+    border-left-color: #181b27;
+    -webkit-animation: zb 1.1s infinite linear;
+    animation: zb 1.1s infinite linear
+}
+.moto-widget-slideshare .moto-widget-slideshare-container {
+    position: relative;
+    height: 0;
+    overflow: hidden
+}
+.moto-widget-slideshare .moto-widget-slideshare-container .moto-widget-slideshare-frame {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+.moto-widget-social-buttons .social-buttons-list .social-button {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px 5px 0
+}
+.moto-widget-social-buttons .social-buttons-list .social-button:last-child {
+    margin-right: 0
+}
+.moto-widget-social-links-extended {
+    list-style: none;
+    font-size: 0
+}
+.moto-widget-social-links-extended .moto-widget-social-links-extended__item {
+    display: inline-block;
+    vertical-align: top
+}
+.moto-widget-social-links-extended .moto-widget-social-links-extended__link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    overflow: hidden
+}
+.moto-widget-social-links {
+    font-size: 0
+}
+.moto-widget-social-links .moto-widget-social-links-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+.moto-widget-social-links .moto-widget-social-links-item {
+    display: inline-block;
+    list-style: none
+}
+.moto-widget-social-links .moto-widget-social-links-item.moto-widget-social-links-item_hidden {
+    display: none
+}
+.moto-widget-social-links .moto-widget-social-links-link {
+    display: inline-block
+}
+.moto-widget-social-links .moto-widget-social-links-link:hover {
+    text-decoration: none
+}
+.moto-widget-sound_cloud .moto-widget-sound_cloud-container {
+    line-height: 0;
+    font-size: 0
+}
+.moto-widget-sound_cloud .moto-widget-sound_cloud-iframe {
+    width: 100%;
+    border: 0
+}
+@media screen and (min-width: 767px) {
+    .moto-widget-tabs_type-vertical .moto-widget-tabs__wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .moto-widget-tabs_type-vertical .moto-widget-tabs__wrapper .moto-widget-tabs__headers-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0
+    }
+    .moto-widget-tabs_type-vertical .moto-widget-tabs__wrapper .moto-widget-tabs__items-wrapper {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1
+    }
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_icon-right+.moto-widget-tabs__items-wrapper .moto-widget-tabs__header-icon,
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_icon-right .moto-widget-tabs__header-icon,
+.moto-widget-tabs.moto-widget-tabs_type-vertical_right .moto-widget-tabs__headers-wrapper {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_headers-justified .moto-widget-tabs__header {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_headers-left,
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_text-left .moto-widget-tabs__header {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_headers-right,
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_text-right .moto-widget-tabs__header {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_headers-center,
+.moto-widget-tabs .moto-widget-tabs__headers-wrapper_text-center .moto-widget-tabs__header {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.moto-widget-tabs .moto-widget-tabs__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    -webkit-transition: color .3s, background-color .3s, border-color .3s;
+    transition: color .3s, background-color .3s, border-color .3s
+}
+.moto-widget-tabs .moto-widget-tabs__header-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.moto-widget-tabs .moto-widget-tabs__header-icon {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+.moto-widget-tabs .moto-widget-tabs__header_mobile {
+    display: none;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.moto-widget-tabs .moto-widget-tabs__header_mobile .moto-widget-tabs__header-title {
+    text-align: center
+}
+@media screen and (max-width: 767px) {
+    .moto-widget-tabs .moto-widget-tabs__header_mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .moto-widget-tabs .moto-widget-tabs__headers-wrapper {
+        display: none
+    }
+}
+.moto-widget-text-content {
+    padding: 0 1px
+}
+.moto-widget-text-content:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.moto-widget-text ol,
+.moto-widget-text ul {
+    list-style-type: none
+}
+.moto-content-image-container,
+.moto-content-image-plugin-wrapper {
+    display: inline-block;
+    max-width: 100%
+}
+.moto-content-image {
+    max-width: 100%;
+    height: auto
+}
+.moto-content-image_left-floated {
+    float: left
+}
+.moto-content-image_right-floated {
+    float: right
+}
+.moto-content-image_centered-block {
+    display: block;
+    line-height: 0;
+    text-align: center
+}
+.moto-widget-tile-gallery__wrapper {
+    overflow: hidden
+}
+.moto-widget-tile-gallery__item-wrapper {
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid-column
+}
+.moto-widget-tile-gallery__item {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+.moto-widget-tile-gallery__item-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.moto-widget-tile-gallery__item-image {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none
+}
+.moto-widget-tile-gallery__item-layer {
+    pointer-events: none;
+    overflow: hidden;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-clip: padding-box
+}
+.moto-widget-tile-gallery__item-caption {
+    pointer-events: all;
+    opacity: 0;
+    max-width: 100%
+}
+.moto-widget-tile-gallery__item,
+.moto-widget-tile-gallery__item-caption,
+.moto-widget-tile-gallery__item-layer,
+.moto-widget-tile-gallery__item-layer-icon {
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-transition-property: color, background-color, opacity, top, left, bottom, right, font-size, padding, margin, box-shadow, border;
+    transition-property: color, background-color, opacity, top, left, bottom, right, font-size, padding, margin, box-shadow, border
+}
+.moto-widget-tile-gallery__item:hover .moto-widget-tile-gallery__item-caption {
+    opacity: 1
+}
+.moto-widget-twitter_time_line .moto-widget_wrapper {
+    overflow: auto;
+    overflow-y: hidden;
+    width: 100%
+}
+.moto-widget-video_player video {
+    display: block
+}
+.moto-widget-video .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden
+}
+.moto-widget-video .video-container .video-frame {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
